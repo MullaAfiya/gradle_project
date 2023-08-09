@@ -17,6 +17,6 @@ java -cp "D:\devops\oracle\wlserver\server\lib\weblogic.jar" weblogic.Deployer `
  -password $password `
  -deploy $appPath `
  -targets $target `
- -name devopstool
+ -name gradle
 
 Write-Host "Application Deployed successfully."
