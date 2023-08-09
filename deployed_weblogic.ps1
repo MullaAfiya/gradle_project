@@ -1,7 +1,7 @@
 ﻿
 # Set the variables for the deployement
 #USE t3 INSTEAD OF http IF YOU HAVE NOT ENABLED THE TUNNELING. IF YOU WANT TO ENABLE TUNNELING IN SERVER>PROTOCALS>GENERAL>ENABLE TUNNELING
-$adminUrl = "http://192.168.10.195:7001"
+$adminUrl = "http://192.168.5.155:7001"
 $username = "weblogic"
 $password = "weblogic@123"
 $appPath = "C:\Users\AKBARALI\.jenkins\workspace\gradle\build\libs\demo.war"
