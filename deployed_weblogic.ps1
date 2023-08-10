@@ -17,6 +17,7 @@ java -cp "C:\Oracle\Middleware\Oracle_Home\wlserver\server\lib\weblogic.jar" web
  -password $password `
  -deploy $appPath `
  -targets $target `
+ -name demo
  
 
 Write-Host "Application Deployed successfully."
